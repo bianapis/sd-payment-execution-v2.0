@@ -1,0 +1,23 @@
+{
+  "paymentExecutionProcedureInstanceRecord" : {
+    "payerProductInstanceReference" : "717586",
+    "amount" : "USD 250",
+    "payeeReference" : "725086",
+    "payeeProductInstanceReference" : "747807",
+    "payerBankReference" : "772701",
+    "payeeBankReference" : "772671",
+    "washAccountReference" : "707318",
+    "paymentMechanismType" : "paymentMechanismType",
+    "paymentOrderReference" : "732750",
+    "paymentTransactionInitiatorReference" : "758782",
+    "dateType" : {
+      "date" : "09-22-2018"
+    },
+    "intermediaryAccountReference" : "783395",
+    "payerReference" : "744421",
+    "currency" : "USD"
+  },
+  "paymentExecutionProcedureUpdateActionTaskReference" : "PEPUATR716587",
+  "updateResponseRecord" : {},
+  "paymentExecutionProcedureUpdateActionTaskRecord" : {}
+}

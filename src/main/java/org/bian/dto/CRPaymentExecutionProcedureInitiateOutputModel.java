@@ -1,0 +1,97 @@
+package org.bian.dto;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.bian.dto.CRPaymentExecutionProcedureInitiateOutputModelPaymentExecutionProcedureInstanceRecord;
+
+import javax.validation.Valid;
+  
+/**
+ * CRPaymentExecutionProcedureInitiateOutputModel
+ */
+public class CRPaymentExecutionProcedureInitiateOutputModel   {
+  private String paymentExecutionProcedureInstanceReference = null;
+
+  private String paymentExecutionProcedureInitiateActionReference = null;
+
+  private Object paymentExecutionProcedureInitiateActionRecord = null;
+
+  private String paymentExecutionProcedureInstanceStatus = null;
+
+  private CRPaymentExecutionProcedureInitiateOutputModelPaymentExecutionProcedureInstanceRecord paymentExecutionProcedureInstanceRecord = null;
+
+
+  /**
+   * `status: Not Mapped`  core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::ISO20022andUNCEFACT::Identifier  general-info: Reference to the Payment Execution Procedure instance 
+   * @return paymentExecutionProcedureInstanceReference
+  **/
+
+  public String getPaymentExecutionProcedureInstanceReference() {
+    return paymentExecutionProcedureInstanceReference;
+  }
+
+  public void setPaymentExecutionProcedureInstanceReference(String paymentExecutionProcedureInstanceReference) {
+    this.paymentExecutionProcedureInstanceReference = paymentExecutionProcedureInstanceReference;
+  }
+
+
+  /**
+   * `status: Not Mapped`  core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::ISO20022andUNCEFACT::Identifier  general-info: Reference to an Initiate service call 
+   * @return paymentExecutionProcedureInitiateActionReference
+  **/
+
+  public String getPaymentExecutionProcedureInitiateActionReference() {
+    return paymentExecutionProcedureInitiateActionReference;
+  }
+
+  public void setPaymentExecutionProcedureInitiateActionReference(String paymentExecutionProcedureInitiateActionReference) {
+    this.paymentExecutionProcedureInitiateActionReference = paymentExecutionProcedureInitiateActionReference;
+  }
+
+
+  /**
+   * `status: Not Mapped`  core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::UNCEFACT::Binary  general-info: The Initiate service call input and output record 
+   * @return paymentExecutionProcedureInitiateActionRecord
+  **/
+
+  public Object getPaymentExecutionProcedureInitiateActionRecord() {
+    return paymentExecutionProcedureInitiateActionRecord;
+  }
+
+  public void setPaymentExecutionProcedureInitiateActionRecord(Object paymentExecutionProcedureInitiateActionRecord) {
+    this.paymentExecutionProcedureInitiateActionRecord = paymentExecutionProcedureInitiateActionRecord;
+  }
+
+
+  /**
+   * `status: Not Mapped`  core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::UNCEFACT::Text  general-info: The status of the Payment Execution Procedure instance (e.g. initialised, pending, active) 
+   * @return paymentExecutionProcedureInstanceStatus
+  **/
+
+  public String getPaymentExecutionProcedureInstanceStatus() {
+    return paymentExecutionProcedureInstanceStatus;
+  }
+
+  public void setPaymentExecutionProcedureInstanceStatus(String paymentExecutionProcedureInstanceStatus) {
+    this.paymentExecutionProcedureInstanceStatus = paymentExecutionProcedureInstanceStatus;
+  }
+
+
+  /**
+   * Get paymentExecutionProcedureInstanceRecord
+   * @return paymentExecutionProcedureInstanceRecord
+  **/
+
+  public CRPaymentExecutionProcedureInitiateOutputModelPaymentExecutionProcedureInstanceRecord getPaymentExecutionProcedureInstanceRecord() {
+    return paymentExecutionProcedureInstanceRecord;
+  }
+
+  public void setPaymentExecutionProcedureInstanceRecord(CRPaymentExecutionProcedureInitiateOutputModelPaymentExecutionProcedureInstanceRecord paymentExecutionProcedureInstanceRecord) {
+    this.paymentExecutionProcedureInstanceRecord = paymentExecutionProcedureInstanceRecord;
+  }
+
+
+}
+

@@ -1,0 +1,42 @@
+{
+  "paymentExecutionProcedureInstanceRecord" : {
+    "correspondentServiceAccessSchedule" : "correspondentServiceAccessSchedule",
+    "payerProductInstanceReference" : "701837",
+    "amount" : "USD 250",
+    "aCHAccessSchedule" : "aCHAccessSchedule",
+    "payeeReference" : "762235",
+    "payeeProductInstanceReference" : "713772",
+    "payerBankReference" : "701007",
+    "payeeBankReference" : "784545",
+    "washAccountReference" : "725539",
+    "paymentMechanismType" : "paymentMechanismType",
+    "paymentOrderReference" : "733533",
+    "paymentTransactionInitiatorReference" : "767817",
+    "dateType" : {
+      "date" : "09-22-2018"
+    },
+    "intermediaryAccountReference" : "731839",
+    "correspondentServiceSessionReference" : "709651",
+    "payerReference" : "769863",
+    "currency" : "USD",
+    "aCHAccessServiceSessionReference" : "701317"
+  },
+  "paymentExecutionRetrieveActionTaskReference" : "PERATR761748",
+  "paymentExecutionRetrieveActionTaskRecord" : {},
+  "paymentExecutionInstanceReport" : {
+    "paymentExecutionInstanceReportRecord" : {},
+    "paymentExecutionInstanceReport" : {},
+    "paymentExecutionInstanceReportType" : "paymentExecutionInstanceReportType",
+    "paymentExecutionInstanceReportParameters" : "paymentExecutionInstanceReportParameters"
+  },
+  "paymentExecutionInstanceAnalysis" : {
+    "paymentExecutionInstanceAnalysisParameters" : "paymentExecutionInstanceAnalysisParameters",
+    "paymentExecutionInstanceAnalysisReport" : {},
+    "paymentExecutionInstanceAnalysisReportType" : "paymentExecutionInstanceAnalysisReportType",
+    "paymentExecutionInstanceAnalysisRecord" : {}
+  },
+  "paymentExecutionRetrieveActionResponse" : "paymentExecutionRetrieveActionResponse",
+  "paymentExecutionInstanceRecord" : {
+    "paymentExecutionTaskResult" : "paymentExecutionTaskResult"
+  }
+}
